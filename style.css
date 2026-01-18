@@ -5,6 +5,14 @@
     src: url("fonts/Megisha DEMO VERSION.ttf");
 }
 
+@font-face {
+    font-family: caviar;
+    src: url("fonts/CaviarDreams.ttf");
+}
+
+
+/* REAL THINGS */
+
 * {
     margin: 1%;
     padding: 0;
@@ -22,18 +30,56 @@ body {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 20px;
 }
 
+.title h1{
+    margin-bottom: -10px;
+}
 .title p {
-    color: grey;
-    font-family: sans-serif;
+    color: rgb(87, 87, 87);
+    font-family: caviar;
     font-size: 20px;
 }
 
 
 /* BODY INFO TEXT */
 
-.bodyInfo h2 {
+.bodyInfo h2,h3 {
     font-family: megisha;
+}
+
+
+.bodyInfo p, li {
+    font-family: caviar;
+}
+
+.bodyInfo ul {
+    padding-bottom: 10px;
+}
+
+/* LINKS */
+
+a:link {
+    color: rgb(87, 87, 87);
+    font-family: caviar;
+    text-decoration: none;
+}
+
+a.home {
+    color: rgb(205, 0, 0);
+    margin-top: 50ch;
+}
+
+/* LISTS */
+
+ul, ol {
+    list-style: none;
+}
+
+.footer .home {
+    display: inline-block;
+    padding-top: 1px;
 }
