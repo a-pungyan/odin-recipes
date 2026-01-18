@@ -1,0 +1,39 @@
+/* fonts etc */
+
+@font-face {
+    font-family: megisha;
+    src: url("fonts/Megisha DEMO VERSION.ttf");
+}
+
+* {
+    margin: 1%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F1ED;
+}
+
+/* MAIN STUFF */
+.title {
+    font-family: megisha;
+    font-size: 5ch;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title p {
+    color: grey;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+/* BODY INFO TEXT */
+
+.bodyInfo h2 {
+    font-family: megisha;
+}
